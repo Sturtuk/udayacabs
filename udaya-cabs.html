@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Udaya Cabs | Cab Service in Bangalore & Hosur</title>
+  <meta name="description" content="Udaya Cabs provides reliable cab services in Bangalore and Hosur for airport transfers, local trips, outstation travel, corporate travel and one-way taxi bookings.">
+  <meta name="keywords" content="cab service Bangalore, taxi Bangalore, cab service Hosur, taxi Hosur, Bangalore airport cab, Hosur cab service, Bangalore to Hosur taxi, Hosur to Bangalore taxi">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.udayacabs.com/">
+
+  <meta property="og:title" content="Udaya Cabs | Bangalore & Hosur Cab Service">
+  <meta property="og:description" content="Reliable cab services across Bangalore and Hosur. Airport, local, outstation and one-way taxi bookings.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.udayacabs.com/">
+
+  <style>
+    :root {
+      --ink:#17202a;
+      --muted:#68727d;
+      --accent:#f4b400;
+      --dark:#101418;
+      --soft:#f6f7f8;
+      --white:#fff;
+      --border:#e7e9ec;
+    }
+    * { box-sizing:border-box; margin:0; padding:0; }
+    body {
+      font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      color:var(--ink);
+      background:var(--white);
+      line-height:1.6;
+    }
+    a { color:inherit; text-decoration:none; }
+    .container { width:min(1120px, 92%); margin:auto; }
+    header {
+      position:sticky; top:0; z-index:20;
+      background:rgba(255,255,255,.96);
+      backdrop-filter:blur(12px);
+      border-bottom:1px solid var(--border);
+    }
+    .nav {
+      height:72px; display:flex; align-items:center; justify-content:space-between;
+    }
+    .logo { font-size:25px; font-weight:800; letter-spacing:-.7px; }
+    .logo span { color:#c58d00; }
+    nav { display:flex; gap:28px; font-size:14px; font-weight:600; }
+    .nav-btn {
+      background:var(--dark); color:white; padding:11px 18px; border-radius:9px;
+    }
+    .hero {
+      background:linear-gradient(180deg,#fff 0%,#fbfbfa 100%);
+      padding:82px 0 70px;
+    }
+    .hero-grid {
+      display:grid; grid-template-columns:1fr; gap:55px; align-items:center;
+    }
+    .eyebrow {
+      display:inline-block; background:#fff6d9; color:#7b5a00;
+      padding:7px 12px; border-radius:999px; font-size:12px;
+      font-weight:800; letter-spacing:.5px; text-transform:uppercase;
+      margin-bottom:18px;
+    }
+    h1 {
+      font-size:clamp(42px,6vw,70px); line-height:1.02;
+      letter-spacing:-3px; max-width:720px;
+    }
+    h1 span { color:#c58d00; }
+    .hero p { margin-top:22px; color:var(--muted); font-size:18px; max-width:650px; }
+    .actions { display:flex; gap:12px; flex-wrap:wrap; margin-top:30px; }
+    .btn {
+      display:inline-flex; align-items:center; justify-content:center;
+      padding:14px 20px; border-radius:10px; font-weight:750;
+    }
+    .primary { background:var(--dark); color:white; }
+    .secondary { border:1px solid #d9dde1; background:white; }
+    section { padding:78px 0; }
+    .section-head { max-width:680px; margin-bottom:35px; }
+    .section-head h2 { font-size:38px; letter-spacing:-1.4px; line-height:1.15; }
+    .section-head p { color:var(--muted); margin-top:10px; }
+    .cards { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; }
+    .card {
+      padding:24px; border:1px solid var(--border); border-radius:16px; background:white;
+    }
+    .icon { font-size:25px; margin-bottom:18px; }
+    .card h3 { font-size:18px; margin-bottom:7px; }
+    .card p { color:var(--muted); font-size:14px; }
+    .band { background:var(--soft); }
+    .locations {
+      display:grid; grid-template-columns:1fr 1fr; gap:18px;
+    }
+    .location {
+      padding:30px; border-radius:18px; background:white; border:1px solid var(--border);
+    }
+    .location h3 { font-size:24px; }
+    .location p { color:var(--muted); margin-top:8px; }
+    .route {
+      margin-top:14px; display:inline-block; font-weight:700; font-size:14px;
+    }
+    .seo-copy { max-width:850px; color:#4f5963; }
+    .seo-copy p { margin:0 0 15px; }
+    .cta {
+      background:var(--dark); color:white; border-radius:24px; padding:48px;
+      display:flex; align-items:center; justify-content:space-between; gap:30px;
+    }
+    .cta h2 { font-size:36px; line-height:1.15; letter-spacing:-1px; }
+    .cta p { color:#b8c0c8; margin-top:8px; }
+    footer {
+      padding:28px 0; border-top:1px solid var(--border); color:var(--muted); font-size:13px;
+    }
+    .footer-row { display:flex; justify-content:space-between; gap:20px; flex-wrap:wrap; }
+    @media(max-width:850px) {
+      nav { display:none; }
+      .hero-grid,.locations { grid-template-columns:1fr; }
+      .cards { grid-template-columns:1fr 1fr; }
+      .cta { flex-direction:column; align-items:flex-start; }
+    }
+    @media(max-width:520px) {
+      .hero { padding-top:55px; }
+      h1 { letter-spacing:-2px; }
+      .cards { grid-template-columns:1fr; }
+      section { padding:55px 0; }
+      .cta { padding:30px; }
+    }
+  </style>
+
+  <!-- LocalBusiness structured data: replace phone/address/url before publishing -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"TaxiService",
+    "name":"Udaya Cabs",
+    "url":"https://www.udayacabs.com/",
+    "telephone":"+91-XXXXXXXXXX",
+    "areaServed":[
+      {"@type":"City","name":"Bengaluru"},
+      {"@type":"City","name":"Hosur"}
+    ],
+    "serviceType":[
+      "Cab Service",
+      "Airport Taxi",
+      "Local Taxi",
+      "Outstation Taxi",
+      "One Way Taxi",
+      "Corporate Cab Service"
+    ]
+  }
+  </script>
+</head>
+
+<body>
+<header>
+  <div class="container nav">
+    <a class="logo" href="#">Udaya <span>Cabs</span></a>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#areas">Areas</a>
+      <a href="#routes">Routes</a>
+      <a href="#about">About</a>
+      <a class="nav-btn" href="#book">Book a Cab</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="container hero-grid">
+      <div>
+        <div class="eyebrow">Bangalore • Hosur</div>
+        <h1>Simple, reliable <span>cab service.</span></h1>
+        <p>
+          Udaya Cabs provides dependable taxi services in Bangalore and Hosur,
+          including airport transfers, local rides, one-way trips and outstation travel.
+        </p>
+        <div class="actions">
+          <a class="btn primary" href="tel:+917047042021">Call to Book</a>
+          <a class="btn secondary" href="https://wa.me/917047042021">WhatsApp Booking</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="container">
+      <div class="section-head">
+        <h2>Cab services for everyday travel</h2>
+        <p>Professional, straightforward and focused on getting you where you need to go.</p>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <div class="icon">✈️</div>
+          <h3>Airport Taxi</h3>
+          <p>Convenient airport pickup and drop services from Bangalore and Hosur.</p>
+        </article>
+        <article class="card">
+          <div class="icon">📍</div>
+          <h3>Local Cabs</h3>
+          <p>Comfortable point-to-point taxi service for Bangalore and Hosur.</p>
+        </article>
+        <article class="card">
+          <div class="icon">↔️</div>
+          <h3>One-Way Taxi</h3>
+          <p>Book one-way rides between Bangalore, Hosur and nearby destinations.</p>
+        </article>
+        <article class="card">
+          <div class="icon">🛣️</div>
+          <h3>Outstation Cabs</h3>
+          <p>Plan an outstation journey with a cab suited to your trip.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="areas">
+    <div class="container">
+      <div class="section-head">
+        <h2>Serving Bangalore & Hosur</h2>
+        <p>Convenient taxi coverage across two connected travel hubs.</p>
+      </div>
+      <div class="locations">
+        <div class="location">
+          <h3>Bangalore Cab Service</h3>
+          <p>Taxi bookings across Bangalore, including airport transfers, local travel, corporate trips and outstation journeys.</p>
+          <span class="route">Bangalore → Hosur · Bangalore → Airport</span>
+        </div>
+        <div class="location">
+          <h3>Hosur Cab Service</h3>
+          <p>Reliable cab bookings in Hosur for local trips, airport transfers and travel towards Bangalore and other destinations.</p>
+          <span class="route">Hosur → Bangalore · Hosur → Airport</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="routes">
+    <div class="container">
+      <div class="section-head">
+        <h2>Popular cab routes from Bangalore & Hosur</h2>
+        <p>Book one-way or round-trip cabs for popular nearby destinations and weekend getaways.</p>
+      </div>
+      <div class="cards">
+        <article class="card"><h3>Bangalore → Wayanad</h3><p>Comfortable taxi service for Wayanad trips.</p></article>
+        <article class="card"><h3>Bangalore → Chikmagalur</h3><p>Cab bookings for Chikmagalur weekend travel.</p></article>
+        <article class="card"><h3>Bangalore → Coorg</h3><p>Travel from Bangalore to Coorg by private cab.</p></article>
+        <article class="card"><h3>Bangalore → Ooty</h3><p>Private taxi for Ooty and nearby hill stations.</p></article>
+        <article class="card"><h3>Bangalore → Mysore</h3><p>Easy one-way and round-trip taxi bookings.</p></article>
+        <article class="card"><h3>Bangalore → Pondicherry</h3><p>Convenient outstation cab service to Pondicherry.</p></article>
+        <article class="card"><h3>Bangalore → Chennai</h3><p>Long-distance private cab bookings.</p></article>
+        <article class="card"><h3>Hosur → Bangalore</h3><p>Reliable taxi service between Hosur and Bangalore.</p></article>
+        <article class="card"><h3>Hosur → Airport</h3><p>Airport transfer service from Hosur to Bangalore Airport.</p></article>
+        <article class="card"><h3>Bangalore → Hampi</h3><p>Outstation cab service for Hampi travel.</p></article>
+        <article class="card"><h3>Bangalore → Goa</h3><p>Private cab bookings for Goa journeys.</p></article>
+        <article class="card"><h3>Bangalore → Kerala</h3><p>Outstation taxi service to popular Kerala destinations.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <div class="section-head">
+        <h2>Why choose Udaya Cabs?</h2>
+      </div>
+      <div class="seo-copy">
+        <p><strong>Udaya Cabs</strong> is a Bangalore and Hosur focused taxi service designed for customers who want a simple way to book a cab without unnecessary complications.</p>
+        <p>Whether you need a <strong>cab in Bangalore</strong>, a <strong>taxi in Hosur</strong>, a <strong>Bangalore airport cab</strong>, a <strong>Hosur to Bangalore taxi</strong> or a one-way outstation cab, you can contact Udaya Cabs with your pickup and destination details.</p>
+        <p>Our website is intentionally simple so customers can quickly call, WhatsApp or request a booking.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="cta">
+        <div>
+          <h2>Need a cab in Bangalore or Hosur?</h2>
+          <p>Call or WhatsApp Udaya Cabs for your next trip.</p>
+        </div>
+        <a class="btn" style="background:#f4b400;color:#151515" href="tel:+917047042021">Call Udaya Cabs</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container footer-row">
+    <div>© 2026 Udaya Cabs. All rights reserved.</div>
+    <div>Bangalore · Hosur · Airport · Outstation</div>
+  </div>
+</footer>
+
+</body>
+</html>
